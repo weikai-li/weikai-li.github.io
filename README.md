@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @liwk19
-- 👀 I’m interested in table tennis, swimming, games (on mobile phone)
-- 🌱 I’m currently learning difficult courses as a junior student in Tsinghua University
-- 💞️ I’m looking to collaborate on machine learning research and course studying in university.
+- 🌱 I’m a first-year PhD student at UCLA, advised by Professor Yizhou Sun
+- 💞️ I’m interested in data mining and graph neural network
 
 <!---
 liwk19/liwk19 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
