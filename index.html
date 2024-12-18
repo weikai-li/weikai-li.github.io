@@ -1,999 +1,445 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html>
 
-    <head>
-        <!-- meta data -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-        
-        <!-- title of site -->
-        <title>Weikai Li</title>
+	<title>Weikai Li</title>
+	<meta name="description" lang="en" content="This is Weikai Li's personal website">
+	<meta name="keywords" lang="en" content="Weikai Li" />
 
-        <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
-       
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="images/icon/favicon.png">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/academicons.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
-		<!--flat icon css-->
-		<link rel="stylesheet" href="assets/css/flaticon.css">
+	<script src="js/jquery-2.1.3.min.js"> </script>
+</head>
 
-		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
 
-        <!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		
-        <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
-        
-        <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+<body>
+<header class="site-header">
+	<div class="wrapper">
+		<nav class="site-nav">
+			<a href="#" class="menu-icon">
+				<svg viewBox="0 0 18 15">
+					<path fill="#424242"
+						d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" />
+					<path fill="#424242"
+						d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" />
+					<path fill="#424242"
+						d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" />
+				</svg>
+			</a>
 
-    </head>
+			<div class="trigger">
+				<a class="page-link" href="#bio"><b>Biography</b></a>
+				<a class="page-link" href="#education"><b>Education</b></a>
+				<a class="page-link" href="#experiences"><b>Experiences</b></a>
+				<a class="page-link" href="#publications"><b>Publications</b></a>
+				<a class="page-link" href="#awards"><b>Awards & Honors</b></a>
+				<a class="page-link" href="#academicservices"><b>Academic Services</b></a>
+				<a class="page-link" href="#teaching"><b>Teaching</b></a>
+				<!-- <a class="page-link" href="#misc"><b>Misc</b></a> -->
+			</div>
+		</nav>
+	</div>
+</header>
+
+
+<div class="cover shallow-bg">
+	<div class="profile-wrapper wrapper-light">
+		<div class="profile-col profile-col-1">
+			<img src="./images/about/profile_image.jpg" alt="Me" class="circle-img"/>
+		</div>
+		<div id="my-contact" class="profile-col profile-col-2">
+			<div id="my-name" class="text-grey-dark">
+				Weikai Li (李伟楷)
+			</div>
+			<div id="my-title" class="text-grey">
+				CS PHD Student @ UCLA
+			</div>
+			<div>
+				<a href="https://scholar.google.com/citations?user=wmjH0R8AAAAJ"
+					class="icon-button github" target="_blank">
+					<i class="ai ai-google-scholar-square icon-github"></i>
+				</a>
+
+				<a href="https://www.linkedin.com/in/weikai-li/"
+					class="icon-button linkedin" target="_blank">
+					<i class="fa fa-linkedin icon-linkedin"></i>
+				</a>
+
+				<a href="mailto:weikaili@cs.ucla.edu" class="icon-button github" target="_blank">
+					<i class="fa fa-envelope icon-github"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="wrapper">
+
+<div id="bio" class="bio">
+	<h1 class="md-heading text-left">
+		<i class="fa fa-id-card" aria-hidden="true"></i>
+		About (<a href="CV.pdf" target="_blank">Download CV</a>)
+	</h1>
+	<div class="bio-body" style="overflow:hidden;">
+		<p>
+			Hi! I am a Computer Science PhD student at <strong>UCLA</strong>,
+			where I am fortunate to be advised by <a href="https://web.cs.ucla.edu/~yzsun/" target="_blank">Prof. Yizhou Sun</a>.
+			I also closely work with <a href="https://vast.cs.ucla.edu/people/faculty/jason-cong" target="_blank">Prof. Jason Cong</a>.
+			I obtained my bachelor's degree in Computer Science and Technology from <strong>Tsinghua University</strong>.
+			During my undergraduate, I was fortunate to be advised by <a href="https://keg.cs.tsinghua.edu.cn/jietang/" target="_blank">Prof. Jie Tang</a>,
+			<a href="https://keg.cs.tsinghua.edu.cn/yuxiao/" target="_blank">Prof. Yuxiao Dong</a>,
+			and <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz/" target="_blank">Prof. Juanzi Li</a>.
+		</p>
+		<p>
+			I have broad research interests in Graph Neural Networks (GNNs) and Large Language Models (LLMs).
+			My research at UCLA mainly focuses on designing AI models including GNNs and LLMs for Electronic Design Automation (AI for EDA)
+			and improving the models' generalizability.
+			I am also working on a project on LLM's interpretability. During my undergraduate,
+			I mainly focused on designing general GNN models and evaluating LLMs' ability on complex tasks.
+		</p>
+	</div>
+</div>
+
+
+<div id="education" class="bio">
+	<h1 class="md-heading text-left">
+		<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+		Education
+	</h1>
+	<div class="bio-body" style="overflow:hidden;">
+		<div class="education-item">
+            <div class="education-degree">
+                <strong>Ph.D.</strong>
+            </div>
+            <div class="education-details">
+                <span>Sep. 2023 - Present</span><br>
+                <b>UCLA</b>, Los Angeles, California, U.S.<br>
+                Computer Science
+            </div>
+            <div class="education-icon">
+                <img src="images/icon/ucla.jpg" alt="UCLA" />
+            </div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-degree">
+                <strong>B.Eng.</strong>
+            </div>
+            <div class="education-details">
+                <span>Aug. 2019 - Jun. 2023</span><br>
+                <b>Tsinghua University</b>, Beijing, China.<br>
+                Computer Science and Technology
+            </div>
+            <div class="education-icon">
+                <img src="images/icon/thu.png" alt="Tsinghua University" />
+            </div>
+        </div>
+	</div>
+</div>
+
+
+<div id="experiences" class="bio">
+	<h1 class="md-heading text-left">
+		<i class="fa fa-briefcase" aria-hidden="true"></i>
+		Experiences
+	</h1>
+	<div class="bio-body" style="overflow:hidden;">
+		<div class="education-item">
+            <div class="experience-title">
+                <strong>Undergrad Research Intern</strong>
+            </div>
+            <div class="education-details">
+                <span>Jul. 2022 - Oct. 2022. <b>UCLA</b>, Los Angeles, California, U.S.</span><br>
+                Published a <a href="https://arxiv.org/abs/2403.08333" target="_blank">paper</a> on the efficient approximation of node influence based on GNN.<br>
+				Advisor: <a href='https://web.cs.ucla.edu/~yzsun/' target="_blank">Prof. Yizhou Sun</a>
+            </div>
+            <div class="education-icon">
+                <img src="images/icon/ucla.jpg" alt="UCLA" />
+            </div>
+        </div>
+	</div>
+</div>
+
+
+<div id="publications" class="bio">
+	<h1 class="md-heading text-left">
+		<i class="fa fa-file" aria-hidden="true"></i>
+		Publications and Manuscripts
+	</h1>
 	
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		<!-- top-area Start -->
-		<header class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
-
-			        <div class="container">
-
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i>
-			                </button>
-			                <h2 class="navbar-brand">Weikai Li</h2>
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
-
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                <li class=" smooth-menu active"></li>
-			                    <li class="smooth-menu"><a href="#education">education</a></li>
-			                    <!-- <li class="smooth-menu"><a href="#skills">skills</a></li> -->
-			                    <li class="smooth-menu"><a href="#experience">intern experience</a></li>
-			                    <!-- <li class="smooth-menu"><a href="#profiles">profile</a></li> -->
-								<li class="smooth-menu"><a href="#publications">publications</a></li>
-								<li class="smooth-menu"><a href="#awards">awards</a></li>
-								<li class="smooth-menu"><a href="#services">services</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
-
-		    <div class="clearfix"></div>
-
-		</header><!-- /.top-area-->
-		<!-- top-area End -->
-	
-		<!--welcome-hero start -->
-		<section id="welcome-hero" class="welcome-hero">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div class="header-text">
-							<h2>Hi <span>,</span> I am <br> Weikai Li <span>.</span></h2>
-							<p>Computer Science Ph<span>.</span>D<span>.</span> Student</p>
-							<!-- <a href="assets/download/browney.txt" download>download resume</a> -->
-						</div><!--/.header-text-->
-					</div><!--/.col-->
-				</div><!-- /.row-->
-			</div><!-- /.container-->
-
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
-
-		<!--about start -->
-		<section id="about" class="about">
-			<div class="section-heading text-center">
-				<h2>About Me</h2>
-			</div>
-			<div class="container">
-				<div class="about-content">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="single-about-txt">
-								<p>
-									Hi! I am Weikai Li (李伟楷). I am a PhD student at the Computer Science Department, UCLA, where I am fortunate to be advised by <a href="https://web.cs.ucla.edu/~yzsun" target="_blank">Prof. Yizhou Sun</a>. I also closely work with <a href="https://vast.cs.ucla.edu/people/faculty/jason-cong" target="_blank">Prof. Jason Cong</a>. I obtained my bachelor's degree at the Department of Computer Science and Technology, Tsinghua University. During my undergraduate, I was fortunate to be advised by <a href="https://keg.cs.tsinghua.edu.cn/jietang" target="_blank">Prof. Jie Tang</a>, <a href="https://keg.cs.tsinghua.edu.cn/yuxiao" target="_blank">Prof. Yuxiao Dong</a>, and <a href="https://keg.cs.tsinghua.edu.cn/persons/ljz" target="_blank">Prof. Juanzi Li</a>. My email address is weikaili@cs.ucla.edu.
-								</p>
-								<p>
-									My research interest broadly lies in graph neural networks (GNNs), large language models (LLMs), and their applications, especially their intersection with electronic design automation (EDA). Specifically, I have research experience in designing GNN models, developing GNN benchmarks, studying AI for EDA, analyzing the limitations of LLMs' in-context learning, and knowledge locating and editing of LLM.
-								</p>
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3><a href="https://scholar.google.com/citations?user=wmjH0R8AAAAJ" target="_blank">Google Scholar</a></h3>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3><a href="https://orcid.org/0000-0002-5801-9500" target="_blank">ORCID</a></h3>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3><a href="https://www.linkedin.com/in/weikai-li" target="_blank">LinkedIn</a></h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-offset-1 col-sm-5">
-							<div class="single-about-img">
-								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
-								<!-- <div class="about-list-icon">
-									<ul> -->
-										<!-- <li>
-											<a href="#">
-												<i  class="fa fa-facebook" aria-hidden="true"></i>
-											</a>
-										</li> -->
-										<!-- <li>
-											<a href="#">
-												<i  class="fa fa-dribbble" aria-hidden="true"></i>
-											</a>
-											
-										</li> -->
-										<!-- <li>
-											<a href="#">
-												<i  class="fa fa-twitter" aria-hidden="true"></i>
-											</a>
-											
-										</li>
-										<li>
-											<a href="#">
-												<i  class="fa fa-linkedin" aria-hidden="true"></i>
-											</a>
-										</li> -->
-										<!-- <li>
-											<a href="#">
-												<i  class="fa fa-instagram" aria-hidden="true"></i>
-											</a>
-										</li> -->
-									<!-- </ul> -->
-								</div>
-
-							</div>
-
-						</div>
-					</div>
+	<div class="bio-body" style="overflow:hidden;">
+		<div class="pub-list">
+			<div class="pub">
+				<div class="pub-left">
+					<img class="intro-img frame" src="images/publication/hierarchical_moe.png">
 				</div>
-			</div>
-		</section><!--/.about-->
-		<!--about end -->
-		
-		<!--education start -->
-		<section id="education" class="education">
-			<div class="section-heading text-center">
-				<h2>education</h2>
-			</div>
-			<div class="container">
-				<div class="education-horizontal-timeline">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>Aug. 2013 - Jun. 2019</h2>
-									<h3>Middle School and High School</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											Tsinghua University High School
-										</h4>
-										<h5>Beijing, China</h5>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>Aug. 2019 - Jun. 2023</h2>
-									<h3>Bachelor <span>of </span> Engineering</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											Tsinghua University
-										</h4>
-										<h5>Beijing, China</h5>
-										<p class="description">
-											Computer Science and Technology
-										</p>
-										<p class="description">
-											GPA: 3.92 (top 10 among 195)
-										</p>
-										<p class="description">
-											Outstanding Graduate of Tsinghua University
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>Sep. 2023 - Present</h2>
-									<h3>Ph.d. Student</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											University of California, Los Angeles (UCLA)
-										</h4>
-										<h5>California, USA</h5>
-										<p class="description">
-											Computer Science Department
-										</p>
-										<p class="description">
-											Advisor: Professor Yizhou Sun
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
+				<div class="pub-right">
+					<div class="title">
+						Hierarchical Mixture of Experts: Generalizable Learning for High-Level Synthesis
+					</div>
+					<div>
+						<font style="font-size: 11pt;">
+							<b>Weikai Li</b>, Ding Wang, Zijian Ding, Atefeh Sohrabizadeh, Zongyue Qin, Jason Cong, Yizhou Sun
+						</font>
+					</div>
+					<div class="publish"><b>AAAI 2025</b></div>
+					<div class="tags">
+						[<a class="tag" href="https://arxiv.org/abs/2410.19225" target="_blank"><strong>Paper</strong></a>]
 					</div>
 				</div>
 			</div>
 
-		</section><!--/.education-->
-		<!--education end -->
-
-		<!--skills start -->
-		<!--
-		<section id="skills" class="skills">
-				<div class="skill-content">
-					<div class="section-heading text-center">
-						<h2>skills</h2>
-					</div>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="single-skill-content">
-									<div class="barWrapper">
-										<span class="progressText">adobe photoshop</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-													  
-												</div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div>
-									<div class="barWrapper">
-										<span class="progressText">adobe illustrator</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
-											</div>
-											<h3>85%</h3>	
-										</div>
-									</div>
-									<div class="barWrapper">
-										<span class="progressText">adobe after effects</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
-											</div>
-											<h3>97%</h3>	
-										</div>
-									</div>
-									<div class="barWrapper">
-										<span class="progressText">sketch</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="single-skill-content">
-									<div class="barWrapper">
-										<span class="progressText">html 5</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-													
-												</div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div>
-									<div class="barWrapper">
-										<span class="progressText">css 3 animation</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
-											</div>
-											<h3>85%</h3>	
-										</div>
-									</div>
-									<div class="barWrapper">
-										<span class="progressText">communication</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
-											</div>
-											<h3>97%</h3>	
-										</div>
-									</div>
-									<div class="barWrapper">
-										<span class="progressText"> creativity</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>	
+			<div class="pub">
+				<div class="pub-left">
+					<img class="intro-img frame" src="images/publication/pairwise_HLS.png">
 				</div>
-
-		</section>-->
-		<!--skills end -->
-
-		<!--experience start -->
-		<section id="experience" class="experience">
-			<div class="section-heading text-center">
-				<h2>Intern Experience</h2>
-			</div>
-			<div class="container">
-				<div class="experience-content">
-						<div class="main-timeline">
-							<ul>
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>Jul. 2022 - Oct. 2022</h2>
-													<h3>Research Intern</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															UCLA Computer Science Department
-														</h4>
-														<h5>California, USA</h5>
-														<p class="description">
-															Advised by <a href="https://web.cs.ucla.edu/~yzsun" target="_blank">Prof. Yizhou Sun</a>
-														</p>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-								
-								<!--
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-offset-1 col-md-5 experience-time-responsive">
-												<div class="experience-time">
-													<h2>
-														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-														Jul. 2022 - Jul. 2022
-													</h2>
-													<h3>associate design director</h3>
-												</div>
-											</div>
-											<div class="col-md-5">
-												<div class="timeline">
-													<div class="timeline-content text-right">
-														<h4 class="title">
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p class="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-offset-1 col-md-5 experience-time-main">
-												<div class="experience-time">
-													<h2>
-														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-														2016 - 2018
-													</h2>
-													<h3>associate design director</h3>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>2013 - 2016</h2>
-													<h3>senior UI/UX designer</h3>
-												</div>
-											</div>
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p class="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-offset-1 col-md-5 experience-time-responsive">
-												<div class="experience-time">
-													<h2>
-														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-														2012 - 2013
-													</h2>
-													<h3>UI/UX designer</h3>
-												</div>
-											</div>
-											<div class="col-md-5">
-												<div class="timeline">
-													<div class="timeline-content text-right">
-														<h4 class="title">
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p class="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-offset-1 col-md-5 experience-time-main">
-												<div class="experience-time">
-													<h2>
-														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-														2012 - 2013
-													</h2>
-													<h3>UI/UX designer</h3>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>2010 - 2012</h2>
-													<h3>frontend developer</h3>
-												</div>
-											</div>
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p class="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li> <-->
-
-							</ul>
-						</div>
+				<div class="pub-right">
+					<div class="title">
+						Learning to Compare Hardware Designs for High-Level Synthesis
 					</div>
-			</div>
-
-		</section>
-		<!--experience end -->
-
-		<!--profiles start -->
-		<!--
-		<section id="profiles" class="profiles">
-			<div class="profiles-details">
-				<div class="section-heading text-center">
-					<h2>profiles</h2>
-				</div>
-				<div class="container">
-					<div class="profiles-content">
-						<div class="row">
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-themeforest"></i></a>
-										<div class="profile-icon-name">themeforest</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-themeforest"></i></a>
-											<div class="profile-icon-name">themeforest</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-dribbble"></i></a>
-										<div class="profile-icon-name">dribbble</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-dribbble"></i></a>
-											<div class="profile-icon-name">dribbble</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-behance-logo"></i></a>
-										<div class="profile-icon-name">behance</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-behance-logo"></i></a>
-											<div class="profile-icon-name">behance</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile profile-no-border">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-github-logo"></i></a>
-										<div class="profile-icon-name">github</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-github-logo"></i></a>
-											<div class="profile-icon-name">github</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="profile-border"></div>
-						<div class="row">
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-flickr-website-logo-silhouette"></i></a>
-										<div class="profile-icon-name">flickR</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-flickr-website-logo-silhouette"></i></a>
-											<div class="profile-icon-name">flickR</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-smug"></i></a>
-										<div class="profile-icon-name">smungMung</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-smug"></i></a>
-											<div class="profile-icon-name">smungMung</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-squarespace-logo"></i></a>
-										<div class="profile-icon-name">squareSpace</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-squarespace-logo"></i></a>
-											<div class="profile-icon-name">squareSpace</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-3">
-								<div class="single-profile profile-no-border">
-									<div class="profile-txt">
-										<a href=""><i class="flaticon-bitbucket-logotype-camera-lens-in-perspective"></i></a>
-										<div class="profile-icon-name">bitBucket</div>
-									</div>
-									<div class="single-profile-overlay">
-										<div class="profile-txt">
-											<a href=""><i class="flaticon-bitbucket-logotype-camera-lens-in-perspective"></i></a>
-											<div class="profile-icon-name">bitBucket</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div>
+						<font style="font-size: 11pt;">
+							Yunsheng Bai, Atefeh Sohrabizadeh, Zijian Ding, Rongjian Liang,
+							<b>Weikai Li</b>, Ding Wang, Haoxing Ren, Yizhou Sun, Jason Cong
+						</font>
+					</div>
+					<div class="publish"><b>MLCAD 2024</b></div>
+					<div class="tags">
+						[<a class="tag" href="https://dl.acm.org/doi/10.1145/3670474.3685940" target="_blank"><strong>Paper</strong></a>]
 					</div>
 				</div>
 			</div>
 
-		</section><-->
-		<!--profiles end -->
-		
-		<section id="publications" class="publications">
-			<div class="section-heading text-center">
-				<h2>Publications</h2>
-			</div>
-			<div class="pub-list">
-				<div class="pub">
-				<div class="pub-left">
-				<img class="intro-img frame" src="assets/images/publication/hierarchical_moe.png">
-				</div>
-				<div class="pub-right">
-				<div class="title">
-					Hierarchical Mixture of Experts: Generalizable Learning for High-Level Synthesis
-				</div>
-				<div class="desc">
-				</div>
-				<div class="authors">
-					<font style="font-size: 11pt;">
-					<p class="author"><b>Weikai Li</b>, Ding Wang, Zijian Ding, Atefeh Sohrabizadeh, Zongyue Qin, Jason Cong, Yizhou Sun</p>
-					</font>
-				</div>
-				<div class="publish">
-					<span class="publisher">AAAI 2025</span>
-					<span class="place"></span>
-				</div>
-				<div class="tags">
-					[<a class="tag" href="https://arxiv.org/abs/2410.19225" target="_blank"> <strong>Paper</strong></a>]
-				</div>
-				</div>
-			</div>
 			<div class="pub">
 				<div class="pub-left">
-				<img class="intro-img frame" src="assets/images/publication/pairwise_HLS.png">
+					<img class="intro-img frame" src="images/publication/activecem.jpg">
 				</div>
 				<div class="pub-right">
-				<div class="title">
-					Learning to Compare Hardware Designs for High-Level Synthesis
-				</div>
-				<div class="desc">
-				</div>
-				<div class="authors">
-					<font style="font-size: 11pt;">
-					<p class="author">Yunsheng Bai, Atefeh Sohrabizadeh, Zijian Ding, Rongjian Liang, <b>Weikai Li</b>, Ding Wang, Haoxing Ren, Yizhou Sun, Jason Cong</p>
-					</font>
-				</div>
-				<div class="publish">
-					<span class="publisher">MLCAD 2024</span>
-					<span class="place"></span>
-				</div>
-				<div class="tags">
-					[<a class="tag" href="https://dl.acm.org/doi/10.1145/3670474.3685940" target="_blank"> <strong>Paper</strong></a>]
-				</div>
+					<div class="title">
+						Efficient Task Transfer for HLS DSE
+					</div>
+					<div>
+						<font style="font-size: 11pt;">
+							Zijian Ding, Atefeh Sohrabizadeh, <b>Weikai Li</b>, Zongyue Qin, Yizhou Sun, Jason Cong
+						</font>
+					</div>
+					<div class="publish"><b>ICCAD 2024</b></div>
+					<div class="tags">
+						[<a class="tag" href="https://arxiv.org/abs/2408.13270" target="_blank"><strong>Paper</strong></a>]
+					</div>
 				</div>
 			</div>
+
 			<div class="pub">
 				<div class="pub-left">
-				<img class="intro-img frame" src="assets/images/publication/activecem.jpg">
+					<img class="intro-img frame" src="images/publication/nora.jpg">
 				</div>
 				<div class="pub-right">
-				<div class="title">
-					Efficient Task Transfer for HLS DSE
-				</div>
-				<div class="desc">
-				</div>
-				<div class="authors">
-					<font style="font-size: 11pt;">
-					<p class="author">Zijian Ding, Atefeh Sohrabizadeh, <b>Weikai Li</b>, Zongyue Qin, Yizhou Sun, Jason Cong</p>
-					</font>
-				</div>
-				<div class="publish">
-					<span class="publisher">ICCAD 2024</span>
-					<span class="place"></span>
-				</div>
-				<div class="tags">
-					[<a class="tag" href="https://arxiv.org/abs/2408.13270" target="_blank"> <strong>Paper</strong></a>]
-				</div>
+					<div class="title">
+						Fast Inference of Removal-Based Node Influence
+					</div>
+					<div>
+						<font style="font-size: 11pt;">
+							<b>Weikai Li</b>, Zhiping Xiao, Xiao Luo, Yizhou Sun
+						</font>
+					</div>
+					<div class="publish"><b>WWW 2024</b></div>
+					<div class="tags">
+						[<a class="tag" href="https://arxiv.org/abs/2403.08333" target="_blank"><strong>Paper</strong></a>]
+						[<a class="tag" href="https://github.com/weikai-li/NORA" target="_blank"><strong>Code</strong></a>]
+					</div>
 				</div>
 			</div>
+
 			<div class="pub">
 				<div class="pub-left">
-				<img class="intro-img frame" src="assets/images/publication/nora.jpg">
+					<img class="intro-img frame" src="images/publication/ICL.jpg">
 				</div>
 				<div class="pub-right">
-				<div class="title">
-					Fast Inference of Removal-Based Node Influence
-				</div>
-				<div class="desc">
-				</div>
-				<div class="authors">
-					<font style="font-size: 11pt;">
-					<p class="author"><b>Weikai Li</b>, Zhiping Xiao, Xiao Luo, Yizhou Sun</p>
-					</font>
-				</div>
-				<div class="publish">
-					<span class="publisher">WWW 2024</span>
-					<span class="place"></span>
-				</div>
-				<div class="tags">
-					[<a class="tag" href="https://arxiv.org/abs/2403.08333" target="_blank"> <strong>Paper</strong></a>]
-					[<a class="tag" href="https://github.com/weikai-li/NORA" target="_blank"> <strong>Code</strong></a>]
-				</div>
+					<div class="title">
+						When does In-context Learning Fall Short and Why? A Study on Specification-Heavy Tasks
+					</div>
+					<div>
+						<font style="font-size: 11pt;">
+							Hao Peng*, Xiaozhi Wang*, Jianhui Chen*, <b>Weikai Li</b>, Yunjia Qi, Zimu Wang, Zhili Wu,
+							Kaisheng Zeng, Bin Xu, Lei Hou, Juanzi Li (*equal contribution)
+						</font>
+					</div>
+					<div class="publish"><b>ArXiv preprint, 2023</b></div>
+					<div class="tags">
+						[<a class="tag" href="https://arxiv.org/abs/2311.08993" target="_blank"><strong>Paper</strong></a>]
+					</div>
 				</div>
 			</div>
+
 			<div class="pub">
 				<div class="pub-left">
-				<img class="intro-img frame" src="assets/images/publication/ICL.jpg">
+					<img class="intro-img frame" src="images/publication/kola.png">
 				</div>
 				<div class="pub-right">
-				<div class="title">
-					When does In-context Learning Fall Short and Why? A Study on Specification-Heavy Tasks
-				</div>
-				<div class="desc">
-				</div>
-				<div class="authors">
-					<font style="font-size: 11pt;">
-					<p class="author">Hao Peng*, Xiaozhi Wang*, Jianhui Chen*, <b>Weikai Li</b>, Yunjia Qi, Zimu Wang, Zhili Wu, Kaisheng Zeng, Bin Xu, Lei Hou, Juanzi Li</p>
-					</font>
-				</div>
-				<div class="publish">
-					<span class="publisher">ArXiv, 2023</span>
-					<span class="place"></span>
-				</div>
-				<div class="tags">
-					[<a class="tag" href="https://arxiv.org/abs/2311.08993" target="_blank"> <strong>Paper</strong></a>]
-				</div>
+					<div class="title">
+						KoLA: Carefully Benchmarking World Knowledge of Large Language Models
+					</div>
+					<div>
+						<font style="font-size: 11pt;">
+							Jifan Yu*, Xiaozhi Wang*, Shangqing Tu, Shulin Cao, Daniel Zhang-Li, Xin Lv, Hao Peng, Zijun Yao, Xiaohan Zhang, Hanming Li,
+							Chunyang Li, Zheyuan Zhang, Yushi Bai, Yantao Liu, Amy Xin, Nianyi Lin, Kaifeng Yun, Linlu Gong, Jianhui Chen, Zhili Wu,
+							Yunjia Qi, <b>Weikai Li</b>, Yong Guan, Kaisheng Zeng, Ji Qi, Hailong Jin, Jinxin Liu, Yu Gu, Yuan Yao, Ning Ding, Lei Hou,
+							Zhiyuan Liu, Bin Xu, Jie Tang, Juanzi Li (*equal contribution)
+						</font>
+					</div>
+					<div class="publish"><b>ICLR 2024</b></div>
+					<div class="tags">
+						[<a class="tag" href="https://arxiv.org/abs/2306.09296" target="_blank"><strong>Paper</strong></a>]
+						[<a class="tag" href="https://github.com/THU-KEG/KoLA" target="_blank"><strong>Code</strong></a>]
+					</div>
 				</div>
 			</div>
+
 			<div class="pub">
 				<div class="pub-left">
-				<img class="intro-img frame" src="assets/images/publication/kola.png">
+					<img class="intro-img frame" src="images/publication/IGB.png">
 				</div>
 				<div class="pub-right">
-				<div class="title">
-					KoLA: Carefully Benchmarking World Knowledge of Large Language Models
-				</div>
-				<div class="desc">
-				</div>
-				<div class="authors">
-					<font style="font-size: 11pt;">
-					<p class="author">Jifan Yu*, Xiaozhi Wang*, Shangqing Tu, Shulin Cao, Daniel Zhang-Li, Xin Lv, Hao Peng, Zijun Yao, Xiaohan Zhang, Hanming Li, Chunyang Li, Zheyuan Zhang, Yushi Bai, Yantao Liu, Amy Xin, Nianyi Lin, Kaifeng Yun, Linlu Gong, Jianhui Chen, Zhili Wu, Yunjia Qi, <b>Weikai Li</b>, Yong Guan, Kaisheng Zeng, Ji Qi, Hailong Jin, Jinxin Liu, Yu Gu, Yuan Yao, Ning Ding, Lei Hou, Zhiyuan Liu, Bin Xu, Jie Tang, Juanzi Li</p>
-					</font>
-				</div>
-				<div class="publish">
-					<span class="publisher">ICLR 2024</span>
-					<span class="place"></span>
-				</div>
-				<div class="tags">
-					[<a class="tag" href="https://arxiv.org/abs/2306.09296" target="_blank"> <strong>Paper</strong></a>]
-					[<a class="tag" href="https://github.com/THU-KEG/KoLA" target="_blank"><strong>Code</strong></a>]
-				</div>
+					<div class="title">
+						Rethinking the Setting of Semi-supervised Learning on Graphs
+					</div>
+					<div>
+						<font style="font-size: 11pt;">
+							Ziang Li*, Ming Ding*, <b>Weikai Li</b>, Zihan Wang, Ziyu Zeng,
+							Yukuo Cen, Jie Tang (*equal contribution)
+						</font>
+					</div>
+					<div class="publish"><b>IJCAI 2022</b></div>
+					<div class="tags">
+						[<a class="tag" href="https://arxiv.org/abs/2205.14403" target="_blank"><strong>Paper</strong></a>]
+						[<a class="tag" href="https://github.com/THUDM/IGB" target="_blank"><strong>Code</strong></a>]
+					</div>
 				</div>
 			</div>
-			<div class="pub">
-				<div class="pub-left">
-				<img class="intro-img frame" src="assets/images/publication/IGB.png">
-				</div>
-				<div class="pub-right">
-				<div class="title">
-					Rethinking the Setting of Semi-supervised Learning on Graphs
-				</div>
-				<div class="desc">
-				</div>
-				<div class="authors">
-					<font style="font-size: 11pt;">
-					<p class="author">Ziang Li*, Ming Ding*, <b>Weikai Li</b>, Zihan Wang, Ziyu Zeng, Yukuo Cen, Jie Tang</p>
-					</font>
-					
-				</div>
-				<div class="publish">
-					<span class="publisher">IJCAI 2022
-					</span>
-					<span class="place"></span>
-				</div>
-				<div class="tags">
-					[<a class="tag" href="https://arxiv.org/abs/2205.14403" target="_blank"><strong>Paper</strong></a>]
-					[<a class="tag" href="https://github.com/THUDM/IGB" target="_blank"><strong>Code</strong></a>]
-				</div>
-				</div>
-			</div>
-			</div>
-		</section>
-
-		<section id="awards" class="awards">
-			<div class="section-heading text-center">
-				<h2>Selected Awards</h2>
-			</div>
-			<div class="wrapper">
-				<ul class="bio">
-				<li>Outstanding Graduate of Tsinghua University (10%), 2023</li>
-				<li>Comprehensive Excellence Scholarship for junior year (10%), 2022</li>
-				<li>Comprehensive Excellence Scholarship for sophomore year (10%), 2021</li>
-				<li>Academic Excellence Scholarship for freshman year (15%), 2020</li>
-				<li>Runner-up in Tsinghua Innovation Competition, industry and technology track, freshman group, 2019</li>
-				<li>First Prize in National High School Mathematics League, 2018</li>
-				</ul>
-			</div>
-		</section>
-
-		<section id="services" class="services">
-			<div class="section-heading text-center">
-				<h2>Academic Services</h2>
-			</div>
-			<div class="wrapper">
-				<div id="academicservices" class="bio">
-				  <div class="bio-body" style="overflow:hidden;">
-					Conference reviewer: ICLR 2024, ICML 2024, ACMMM 2024, NeurIPS 2024, LoG 2024, AAAI 2025, ICLR 2025, WWW 2025, ICML 2025
-				  </div>
-				  <div class="bio-body" style="overflow:hidden;">
-					Journal reviewer: IEEE TBD 2024, PLOS ONE 2024
-				  </div>
-				  <div class="bio-body" style="overflow:hidden;">
-					Conference volunteer: <a href="https://ai4eda-workshop.github.io" target="_blank">NSF AI for EDA Workshop 2024</a>
-				  </div>
-				</div>
-			</div>
-		</section>
-
-		<section id="services" class="services">
-			<div class="section-heading text-center">
-				<h2>Teaching Assistant</h2>
-			</div>
-			<div class="wrapper">
-				<div id="academicservices" class="bio">
-				  <div class="bio-body" style="overflow:hidden;">
-					2024 Summer: CS 97 (Introduction to Data Science) for high school students, UCLA
-				  </div>
-				  <div class="bio-body" style="overflow:hidden;">
-					2024 Fall: CS 31 (Introduction to Computer Science I), UCLA
-				  </div>
-				  <div class="bio-body" style="overflow:hidden;">
-					2024 Winter: CS 31 (Introduction to Computer Science I), UCLA
-				  </div>
-				</div>
-			</div>
-		</section>
-		
-		<!--footer-copyright start-->
-		<footer id="footer-copyright" class="footer-copyright">
-			<div class="container">
-				<div class="hm-footer-copyright text-center">
-					<p>
-						The website templates are borrowed from <a href="https://wanjiazhao1203.github.io/" target="_blank">Wanjia Zhao's personal website</a> and <a href="https://www.themesine.com/" target="_blank">themesine</a>.
-					</p><!--/p-->
-				</div><!--/.text-center-->
-			</div><!--/.container-->
-
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" ></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.footer-copyright-->
-		<!--footer-copyright end-->
-		
-		<!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-		<script src="assets/js/jquery.js"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-		
-		<!-- jquery.sticky.js -->
-		<script src="assets/js/jquery.sticky.js"></script>
-		
-		<!-- for progress bar start-->
-
-		<!-- progressbar js -->
-		<script src="assets/js/progressbar.js"></script>
-
-		<!-- appear js -->
-		<script src="assets/js/jquery.appear.js"></script>
-
-		<!-- for progress bar end -->
-
-		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
+		</div>
+	</div>
+</div>
 
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		
-        
-        <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
-        
-    </body>
-	
+<div id="awards" class="bio">
+	<h1 class="md-heading text-left">
+		<i class="fa fa-trophy" aria-hidden="true"></i>
+		Selected Awards & Honors
+	</h1>
+	<div class="bio-body" style="overflow:hidden;">
+		<ul>
+			<li>NSF Student Travel Award (The Web Conference), 2024</li>
+			<li>Outstanding Graduate of Tsinghua University (top 10%), 2023</li>
+			<li>Comprehensive Excellence Scholarship for junior year (top 10%), 2022</li>
+			<li>Comprehensive Excellence Scholarship for sophomore year (top 10%), 2021</li>
+			<li>Academic Excellence Scholarship for freshman year (top 15%), 2020</li>
+			<li>Runner-up in Tsinghua Innovation Competition, industry and technology track, freshman group, 2019</li>
+			<li>First Prize in National High School Mathematics League, 2018</li>
+		</ul>
+	</div>
+</div>
+
+
+<div id="academicservices" class="bio">
+	<h1 class="md-heading text-left">
+		<i class="fa fa-cogs" aria-hidden="true"></i>
+		Academic Services
+	</h1>
+	<div class="bio-body" style="overflow:hidden;">
+		<ul>
+			<li><b>Conference reviewer:</b> ICLR 2024, ICML 2024, ACMMM 2024, NeurIPS 2024, LoG 2024, AAAI 2025,
+				ICLR 2025, WWW 2025, ICML 2025</li>
+			<li><b>Journal reviewer:</b> IEEE TBD 2024, PLOS ONE 2024</li>
+			<li><b>Conference volunteer:</b> NSF AI for EDA Workshop 2024</li>
+		</ul>
+	</div>
+</div>
+
+
+<div id="teaching" class="bio">
+	<h1 class="md-heading text-left">
+		<i class="fa fa-book" aria-hidden="true"></i>
+		Teaching
+	</h1>
+	<div class="bio-body" style="overflow:hidden;">
+		<ul>
+			<li><b>2024 fall & 2024 winter</b>: teaching assistant of CS 31 (Introduction to Computer Science I), UCLA</li>
+			<li><b>2024 summer</b>: teaching assistant of CS 97 (Introduction to Data Science), UCLA summer school for high school students</li>
+		</ul>
+	</div>
+</div>
+
+
+<div id="misc" class="bio">
+	<h1 class="md-heading text-left">
+		<i class="fa fa-cube" aria-hidden="true"></i>
+		Miscellaneous
+	</h1>
+	<div class="bio-body" style="overflow:hidden;">
+		<ul>
+			<li>I love badminton, singing, traveling, and enjoying beautiful landscapes.</li>
+			<li>🎤 I have been a member of Tsinghua University's choir and UCLA's choir.</li>
+			<li>🏃‍♀️ I have organized several department-level sports events and won the "Best Logistics Award."</li>
+		</ul>
+	</div>
+</div>
+
+</div>
+
+
+<footer class="site-footer">
+    <div class="wrapper">
+        <div class="footer-content">
+            <div class="footer-email">
+                <ul class="contact-list">
+                    <li>Personal Email:</li>
+                    <li><a href="mailto:weikaili@cs.ucla.edu">weikaili [at] cs.ucla.edu</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-citation">
+                <div class="text">
+					Last updated: Dec, 2024.
+					Many thanks to <a href="https://wanjiazhao1203.github.io/" target="_blank">Wanjia Zhao</a> for the website templates.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="back-to-top">Top</div>
+
+
+<script type="text/javascript">
+	jQuery(document).ready(function () {
+		var offset = 220;
+		var duration = 500;
+		jQuery(window).scroll(function () {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery('.back-to-top').fadeIn(duration);
+			} else {
+				jQuery('.back-to-top').fadeOut(duration);
+
+			}
+		});
+		jQuery('.back-to-top').click(function (event) {
+			event.preventDefault();
+			jQuery('html, body').animate({ scrollTop: 0 }, duration);
+			return false;
+		})
+	});
+</script>
+</body>
+
 </html>
