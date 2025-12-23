@@ -1,5 +1,5 @@
-- Hi, I am Weikai Li @liwk19 👋
-- I am a first-year Computer Science Ph.D. student at UCLA, where I am fortunate to be advised by Prof. Yizhou Sun
+- Hi, I am Weikai Li 👋
+- I am a Computer Science Ph.D. student at UCLA, where I am fortunate to be advised by Prof. Yizhou Sun
 - Personal website: https://weikai-li.github.io
   
 <!---
