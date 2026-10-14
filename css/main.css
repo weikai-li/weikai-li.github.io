@@ -45,6 +45,10 @@ h1 {
     font-weight: 300
 }
 
+.pub-right font b {
+    font-weight: 700
+}
+
 a,
 :visited {
     color: #2a7ae2;
